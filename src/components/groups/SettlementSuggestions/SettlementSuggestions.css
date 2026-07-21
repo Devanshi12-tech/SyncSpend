@@ -1,0 +1,72 @@
+.settlement-container {
+  background: white;
+  padding: 25px;
+  border-radius: 18px;
+  margin: 30px 0;
+  box-shadow: 0 6px 18px rgba(0,0,0,.08);
+}
+
+.settlement-container h2 {
+  margin-bottom: 20px;
+}
+
+.settlement-list {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.settlement-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  border: 1px solid #e5e7eb;
+  border-radius: 14px;
+  padding: 20px;
+  transition: .25s;
+}
+
+.settlement-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0,0,0,.08);
+}
+
+.settlement-arrow {
+  font-size: 28px;
+  color: #2563eb;
+}
+
+.settlement-amount {
+  font-size: 20px;
+  font-weight: bold;
+  color: #16a34a;
+}
+
+.settle-btn {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: .25s;
+}
+
+.settle-btn:hover {
+  background: #1d4ed8;
+}
+
+.settled-message {
+  text-align: center;
+  color: #16a34a;
+  font-weight: 600;
+  padding: 20px;
+}
+
+@media (max-width:768px) {
+  .settlement-card {
+    flex-direction: column;
+    text-align: center;
+  }
+}

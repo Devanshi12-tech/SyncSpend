@@ -1,0 +1,60 @@
+.group-header {
+  background: white;
+  border-radius: 20px;
+  padding: 30px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.08);
+  margin-bottom: 35px;
+}
+
+.group-header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.group-title {
+  font-size: 2.2rem;
+  margin-bottom: 8px;
+  color: #1f2937;
+}
+
+.group-created {
+  color: #6b7280;
+  font-size: 15px;
+}
+
+.group-total {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #2563eb;
+}
+
+.group-stats {
+  display: flex;
+  gap: 20px;
+}
+
+.group-stat-card {
+  flex: 1;
+  background: #f8fafc;
+  border-radius: 16px;
+  padding: 20px;
+  text-align: center;
+  transition: .3s;
+}
+
+.group-stat-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0,0,0,.08);
+}
+
+.group-stat-card h3 {
+  font-size: 28px;
+  color: #2563eb;
+}
+
+.group-stat-card p {
+  margin-top: 8px;
+  color: #6b7280;
+}

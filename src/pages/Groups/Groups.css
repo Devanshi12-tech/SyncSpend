@@ -1,0 +1,191 @@
+.groups-container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.groups-title {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.groups-subtitle {
+  color: #666;
+  margin-bottom: 25px;
+  text-align: left;
+}
+
+.group-form {
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.group-form input {
+  flex: 1;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.group-form button {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  background: #2563eb;
+  color: white;
+  cursor: pointer;
+}
+
+.group-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.group-card {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,.08);
+}
+
+.group-card h3 {
+  margin-bottom: 12px;
+}
+
+.group-card p {
+  margin: 8px 0;
+}
+
+/* Available Friends */
+
+.friends-title {
+  margin-top: 35px;
+  margin-bottom: 15px;
+  font-size: 1.4rem;
+}
+
+.friends-list {
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+.friend-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 16px 20px;
+  border-bottom: 1px solid #eeeeee;
+  cursor: pointer;
+  transition: background 0.25s ease;
+}
+
+.friend-item:last-child {
+  border-bottom: none;
+}
+
+.friend-item:hover {
+  background: #f8f9ff;
+}
+
+.friend-item input {
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+}
+
+.friend-item span {
+  font-size: 17px;
+  font-weight: 500;
+}
+
+/* Friends Section */
+
+.groups-friends-heading {
+  margin-top: 35px;
+  font-size: 28px;
+  font-weight: 700;
+  color: #1f2937;
+}
+
+.groups-friends-subtitle {
+  color: #6b7280;
+  margin-bottom: 20px;
+}
+
+.groups-friends-grid {
+  display: grid;
+  gap: 18px;
+}
+
+.groups-friend-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background: white;
+  padding: 18px 22px;
+
+  border-radius: 16px;
+
+  border: 2px solid transparent;
+
+  box-shadow: 0 8px 20px rgba(0,0,0,.06);
+
+  cursor: pointer;
+
+  transition: all .25s ease;
+}
+
+.groups-friend-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 14px 28px rgba(0,0,0,.10);
+}
+
+.groups-friend-card.selected {
+  border-color: #2563eb;
+  background: #eff6ff;
+}
+
+.groups-friend-info {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.groups-avatar {
+  width: 48px;
+  height: 48px;
+
+  border-radius: 50%;
+
+  background: linear-gradient(135deg,#2563eb,#60a5fa);
+
+  color: white;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.groups-friend-info span {
+  font-size: 17px;
+  font-weight: 600;
+  color: #1f2937;
+}
+
+.groups-friend-card input {
+  width: 22px;
+  height: 22px;
+  accent-color: #2563eb;
+  cursor: pointer;
+}

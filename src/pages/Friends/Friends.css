@@ -1,0 +1,162 @@
+.friends-page {
+  padding: 35px;
+  min-height: 100vh;
+  background: #f8fafc;
+}
+
+.friends-page h1 {
+  font-size: 2rem;
+  color: #1e293b;
+  margin-bottom: 25px;
+}
+
+.friend-form {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 35px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 5px 18px rgba(0, 0, 0, 0.06);
+}
+
+.friend-form input {
+  flex: 1;
+  padding: 14px 18px;
+  font-size: 15px;
+  border: 1px solid #dbe4ee;
+  border-radius: 12px;
+  outline: none;
+  transition: 0.25s;
+}
+
+.friend-form input:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.12);
+}
+
+.friend-form button {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 14px 24px;
+  border-radius: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.25s;
+}
+
+.friend-form button:hover {
+  background: #1d4ed8;
+  transform: translateY(-2px);
+}
+
+
+.friends-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 24px;
+}
+
+.friend-card {
+  background: white;
+  border-radius: 18px;
+  padding: 22px;
+  min-height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0 6px 18px rgba(0,0,0,.08);
+  transition: .25s ease;
+  text-align: left;
+}
+
+.friend-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 15px 35px rgba(0,0,0,.12);
+}
+
+.avatar {
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+  background: linear-gradient(135deg,#2563eb,#60a5fa);
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 18px;
+  margin:0;
+}
+
+.friend-card h3 {
+  color: #1e293b;
+  margin:12px 0 6px;
+font-size:1.45rem;
+font-weight:600;
+}
+
+.friend-card p {
+  color: #64748b;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+
+.friend-buttons {
+  display: flex;
+  gap: 12px;
+}
+
+.edit-btn,
+.delete-btn {
+  flex: 1;
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  font-weight: 600;
+  font-size:15px;
+  cursor: pointer;
+  transition: .25s;
+}
+
+.edit-btn {
+  background: #2563eb;
+  color: white;
+}
+
+.edit-btn:hover {
+  background: #1d4ed8;
+}
+
+.delete-btn {
+  background: #ef4444;
+  color: white;
+}
+
+.delete-btn:hover {
+  background: #dc2626;
+}
+
+
+@media (max-width: 768px) {
+
+  .friends-page {
+    padding: 20px;
+  }
+
+  .friend-form {
+    flex-direction: column;
+  }
+
+  .friend-form button {
+    width: 100%;
+  }
+
+  .friends-list {
+    grid-template-columns: 1fr;
+  }
+
+}

@@ -1,0 +1,105 @@
+.expenses-expense-type {
+  margin-top: 20px;
+}
+
+.expenses-radio-group {
+  display: flex;
+  gap: 25px;
+  margin-top: 10px;
+}
+
+.expenses-radio-group label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.expenses-radio-group input {
+  cursor: pointer;
+}
+
+.expenses-group-selector {
+  margin-top: 20px;
+}
+
+.expenses-group-selector select {
+  margin-top: 8px;
+}
+
+.expenses-paid-by {
+  margin-top: 20px;
+}
+
+.expenses-paid-by select {
+  margin-top: 8px;
+}
+
+.expenses-split-among {
+  margin-top: 20px;
+}
+
+.expenses-member-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 12px;
+}
+
+.expenses-member-checkbox {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  padding: 8px 14px;
+
+  background: #f8f9fb;
+
+  border-radius: 10px;
+
+  cursor: pointer;
+
+  transition: 0.25s;
+}
+
+.expenses-member-checkbox:hover {
+  background: #edf4ff;
+}
+
+.expenses-member-checkbox input {
+  cursor: pointer;
+}
+
+.expenses-form-card {
+  background: white;
+  padding: 25px;
+  border-radius: 18px;
+  box-shadow: 0 5px 18px rgba(0,0,0,.08);
+  margin-bottom: 30px;
+}
+
+.expenses-form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.expenses-form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.expenses-full-width {
+  grid-column: 1 / -1;
+}
+
+@media (max-width: 768px) {
+  .expenses-form-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .expenses-full-width {
+    grid-column: auto;
+  }
+}

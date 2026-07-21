@@ -1,0 +1,114 @@
+.balance-summary {
+  margin: 30px 0;
+}
+
+.balance-summary h2 {
+  font-size: 1.8rem;
+  color: #1e293b;
+  margin-bottom: 25px;
+}
+
+.balance-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 22px;
+}
+
+.balance-card {
+  background: #ffffff;
+  border-radius: 18px;
+  padding: 24px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+  transition: 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.balance-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.12);
+}
+
+/* Top Accent */
+.balance-card::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 6px;
+}
+
+.balance-card.positive::before {
+  background: linear-gradient(90deg, #22c55e, #4ade80);
+}
+
+.balance-card.negative::before {
+  background: linear-gradient(90deg, #ef4444, #f87171);
+}
+
+.balance-card.settled::before {
+  background: linear-gradient(90deg, #3b82f6, #60a5fa);
+}
+
+.balance-name {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #1e293b;
+  margin-bottom: 15px;
+}
+
+.balance-status {
+  font-size: 14px;
+  color: #64748b;
+  margin-bottom: 8px;
+}
+
+.balance-amount {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+.balance-card.positive .balance-amount {
+  color: #16a34a;
+}
+
+.balance-card.negative .balance-amount {
+  color: #dc2626;
+}
+
+.balance-card.settled .balance-amount {
+  color: #2563eb;
+}
+
+.balance-chip {
+  display: inline-block;
+  padding: 7px 14px;
+  border-radius: 30px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.balance-card.positive .balance-chip {
+  background: #dcfce7;
+  color: #15803d;
+}
+
+.balance-card.negative .balance-chip {
+  background: #fee2e2;
+  color: #b91c1c;
+}
+
+.balance-card.settled .balance-chip {
+  background: #dbeafe;
+  color: #1d4ed8;
+}
+
+@media (max-width:768px){
+
+  .balance-grid{
+    grid-template-columns:1fr;
+  }
+
+}
