@@ -113,7 +113,7 @@ npm run dev
 
 ## 📸 Screenshots
 
-> Add screenshots here after deployment.
+
 
 ---
 
@@ -126,5 +126,3 @@ B.Tech Civil Engineering, IIT Indore
 GitHub: https://github.com/Devanshi12-tech
 
 ---
-
-⭐ If you like this project, don't forget to star the repository!
