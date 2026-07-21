@@ -1,16 +1,130 @@
-# React + Vite
+# 💸 SyncSpend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern expense-sharing application inspired by Splitwise, built with **React** and **Vite**. SyncSpend helps users manage personal expenses, group expenses, and settlements with an intuitive and responsive interface.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
 
-## React Compiler
+### 📊 Dashboard
+- Total expenses overview
+- Highest expense
+- Average expense
+- Total transactions
+- Category-wise expense distribution
+- Interactive charts
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 💰 Expense Management
+- Add new expenses
+- Edit existing expenses
+- Delete expenses
+- Search expenses
+- Filter by category
+- Personal and group expenses
 
-## Expanding the ESLint configuration
+### 👥 Friends
+- Add and manage friends
+- Local storage persistence
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 👨‍👩‍👧‍👦 Groups
+- Create groups
+- View group details
+- Shared expense tracking
+- Balance summary
+- Settlement suggestions
+
+### 💾 Data Storage
+- Local Storage integration
+- Persistent data across sessions
+
+### 🎨 User Interface
+- Responsive design
+- Clean and modern UI
+- Interactive components
+- CSS-based styling
+
+---
+
+## 🛠 Tech Stack
+
+- React
+- Vite
+- React Router
+- JavaScript (ES6+)
+- CSS3
+- Local Storage
+- Recharts
+
+---
+
+## 📂 Project Structure
+
+```
+src/
+│── components/
+│── layouts/
+│── pages/
+│── App.jsx
+│── App.css
+│── main.jsx
+```
+
+---
+
+## 🚀 Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/Devanshi12-tech/SyncSpend.git
+```
+
+Navigate into the project
+
+```bash
+cd SyncSpend
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Start the development server
+
+```bash
+npm run dev
+```
+
+---
+
+## 📈 Future Improvements
+
+- User authentication
+- Cloud database (Firebase/Supabase)
+- Real-time expense synchronization
+- Recurring expenses
+- Expense categories with budgets
+- Export reports
+- Dark mode
+
+---
+
+## 📸 Screenshots
+
+> Add screenshots here after deployment.
+
+---
+
+## 👩‍💻 Author
+
+**Devanshi Kawlani**
+
+B.Tech Civil Engineering, IIT Indore
+
+GitHub: https://github.com/Devanshi12-tech
+
+---
+
+⭐ If you like this project, don't forget to star the repository!
