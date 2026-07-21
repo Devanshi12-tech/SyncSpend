@@ -4,7 +4,7 @@ A modern expense-sharing application inspired by Splitwise, built with **React**
 
 ## 🌐 Live Demo
 
-🔗 https://syncspend.vercel.app
+🔗https://syncspend.vercel.app/
 ---
 
 ## ✨ Features
