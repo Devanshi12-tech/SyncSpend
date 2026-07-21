@@ -2,6 +2,9 @@
 
 A modern expense-sharing application inspired by Splitwise, built with **React** and **Vite**. SyncSpend helps users manage personal expenses, group expenses, and settlements with an intuitive and responsive interface.
 
+## 🌐 Live Demo
+
+🔗 https://syncspend.vercel.app
 ---
 
 ## ✨ Features
